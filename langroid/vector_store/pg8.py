@@ -312,6 +312,8 @@ class PostgresDB(VectorStore):
                 for row in results
             ]
             return documents
+    def similar_texts_with_scores():
+        pass
 
 def test_create_collection():
     db_config = PostgresDBConfig(
